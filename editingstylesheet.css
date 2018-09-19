@@ -1,0 +1,151 @@
+/* references
+height restriction
+https://stackoverflow.com/questions/36253760/how-to-limit-max-width-and-height-to-screen-size-in-cs
+*/
+
+/*credo red: rgb(131,34,1)*/
+
+/*this is for visualising the containers etc */
+* {
+	/*border-style: dashed;
+	border-width: 1px;*/
+	border-radius: 8px;
+	
+	
+}
+
+/*all other code*/
+
+body {
+	height: 99vh;
+	width: 99vw;
+	
+}
+.container-fluid, .row {
+	background-color: white;
+}
+
+
+.page {
+	padding: 10px 5px;
+}
+#layers-box{
+	height: 85%;
+	overflow: auto;
+	padding: 5px;
+}
+
+
+#metadata, #notes, #annotation, #files {
+border-style: solid;
+border-color: rgb(162,124,94);
+	border-width: 1px;
+	padding: 5px;
+	
+}
+
+#metadata{
+	height: 20%;
+	overflow: auto;
+	border-style: solid;
+	border-color: rgb(162,124,94);
+	border-width: 1px;
+	margin: -5px 5px 5px 5px;
+}
+
+#notes {
+	height: 50%;
+	overflow: auto;
+	border-style: solid;
+	border-color: rgb(162,124,94);
+	border-width: 1px;
+	margin: 5px;
+	
+}
+#annotation {
+	height: 30%;
+	overflow: auto;
+	border-style: solid;
+	border-color: rgb(162,124,94);
+	border-width: 1px;
+	margin: 5px;
+}
+
+.col-7, .col-3, .col-2 {
+	max-height: 85vh;
+	padding: 5px;
+	
+}
+
+
+#main-box {
+	border-style: solid;
+	border-color: rgb(131,34,1);
+	border-width: 2px;
+	height: 100%;
+}
+
+#red {
+	border-style: solid;
+	border-color: rgb(131,34,1);
+	border-width: 1px;
+	margin: 0px;
+}
+
+#lightbrown {
+	/*alternative rgb(182,126,33); */
+	border-style: solid;
+	border-color: rgb(162,124,94);
+	border-width: 1px;
+	margin: 0px;
+}
+
+#darkbrown {
+	border-style: solid;
+	border-color: rgb(90,73,41);
+	border-width: 2px;
+	margin: 0px;
+}
+
+#white {
+	border-style: solid;
+	border-color: rgb(255,255,255);
+	border-width: 1px;
+	margin: 0px;
+}
+
+#metadata, #notes, #annotation {
+	max-width: 90%;
+	
+}
+
+.btn {
+	background-color: rgb(131,34,1);
+	border-color: rgb(131,34,1);
+	border-bottom-color: rgb(75,20,1);
+	border-left-color: rgb(255,213,198);
+	border-right-color: rgb(254,142,105);
+	border-width:2px;
+	border-radius: 11%;
+	color: white;
+}
+.btn:hover {
+	background-color: rgb(255,213,198); 
+	border-color: rgb(255,213,198);
+	color: rgb(75,20,1);
+	
+}
+
+.navbar-nav {
+	width: 100%;
+}
+
+#title {
+	padding: 10px;
+	margin: 5px;
+}
+
+.shadow-custom {
+	box-shadow: 1px 8px 8px rgba(75,20,1, 0.4);
+}
+

@@ -1,0 +1,9 @@
+This is the current editing.html page
+Linzi, the div for the verovio bit is on line 57 it has the id "main-box"
+
+I will put this in the flask folder when I have run through a tutorial and know what to do
+Linzi, feel free to change this as you need to, just link me a tutorial if you use something I need to learn
+
+Thanks
+
+adding line here to test a commit from pycharm cone of project

@@ -1,0 +1,133 @@
+<!-- always edit at 100% zoom in the browser -->
+<!-- references
+spacing: https://getbootstrap.com/docs/4.0/utilities/spacing/
+-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Editing</title>
+		<meta charset="utf-8">
+		 <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="master.css">
+  <link rel="stylesheet" href="editingstylesheet.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<header>
+			
+			<div class="container-fluid shadow-custom" ><!-- this needs to be cntainer-fluid rather than container if full width is required-->
+				<div class="row" >
+					<div class="col-12" id="nav">
+					<nav class="navbar navbar-expand-sm bg-light">
+					<ul class="navbar-nav">
+					<li class="nav-item" ><h3 id="title">current project</h3></li>
+						<div class="btn-group ">
+							
+								<li class="nav-item "><a class="nav-link" href="editing.html"><button type="button" class="btn btn-primary">Add notes</button></a></li>
+								<li class="nav-item"><a class="nav-link" href="editing.html"><button type="button" class="btn btn-primary">Add File</button></a></li>
+								<li class="nav-item"><a class="nav-link" href="editing.html"><button type="button" class="btn btn-primary">Export File</button></a></li>
+								<li class="nav-item"><a class="nav-link" href="editing.html"><button type="button" class="btn btn-primary">Print</button></a></li><!-- I'm leaving these empty until there is something to do -->
+								<li class="nav-item"><a class="nav-link" href="about.html"><button type="button" class="btn btn-primary">About</button></a></li>
+								<li class="nav-item"><a class="nav-link" href="index.html"><button type="button" class="btn btn-primary">Log Out</button></a></li>
+								<li class="nav-item"><a class="nav-link" href="index.html"><button type="button" class="btn btn-primary">Home</button></a></li>
+								<li class="nav-item"><a class="nav-link" href="profile.html"><button type="button" class="btn btn-primary">Profile</button></a></li>
+							
+						</div>
+						<li class="nav-item"><a class="navbar-brand" href="index.html"><img src="logo.jpg" style="width:60px;" alt="logo"></a></li>
+					</ul>
+					</nav>
+					</div>
+				</div>
+			</div>
+			
+		</header>
+		<hr id="darkbrown"></hr>
+		<hr id="lightbrown"></hr>
+		<hr id="white"></hr>
+		<hr id="red"></hr>
+	
+		
+		<div class="page">
+			<div class="container-fluid">
+				<div class="row">
+					<div  class="col-2 shadow-custom" id="files">
+						<div id="layers-box">
+							<h5>Files</h5>
+							<ul class="list-group">
+								<div class="form-check">
+									<label class="form-check-label">
+										<li class="list-group-item"><input type="checkbox" class="form-check-input" id="file 1" >File 1</li> <!-- add "active" to the class list when it is the active element -->
+										<li class="list-group-item"><input type="checkbox" class="form-check-input" id="file 2" >File 2</li>
+										<li class="list-group-item"><input type="checkbox" class="form-check-input" id="file 3" >File 3</li>
+										<li class="list-group-item"><input type="checkbox" class="form-check-input" id="file 4" >File 4</li>
+										<li class="list-group-item"><input type="checkbox" class="form-check-input" id="file 5" >File 5</li>
+										<li class="list-group-item"><input type="checkbox" class="form-check-input" id="file 6" >File 6</li>
+										<li class="list-group-item"><input type="checkbox" class="form-check-input" id="file 7" >File 7</li>
+										<li class="list-group-item"><input type="checkbox" class="form-check-input" id="file 8" >File 8</li>
+										<li class="list-group-item"><input type="checkbox" class="form-check-input" id="file 9" >File 9</li>
+										<li class="list-group-item"><input type="checkbox" class="form-check-input" id="file 10" >File 10</li>
+										<li class="list-group-item"><input type="checkbox" class="form-check-input" id="file 10" >File 10</li>
+										<li class="list-group-item"><input type="checkbox" class="form-check-input" id="file 10" >File 10</li>
+										<li class="list-group-item"><input type="checkbox" class="form-check-input" id="file 10" >File 10</li>
+										<li class="list-group-item"><input type="checkbox" class="form-check-input" id="file 10" >File 10</li>
+										<li class="list-group-item"><input type="checkbox" class="form-check-input" id="file 10" >File 10</li>
+										<li class="list-group-item"><input type="checkbox" class="form-check-input" id="file 10" >File 10</li>
+										<li class="list-group-item"><input type="checkbox" class="form-check-input" id="file 10" >File 10</li>
+										<li class="list-group-item"><input type="checkbox" class="form-check-input" id="file 10" >File 10</li>
+									</label>
+								</div>
+							</ul>
+						</div>
+						<div id="user-version">
+							<button type="button" class="btn btn-info shadow-custom">User Version</button>
+						</div>
+					</div>
+					<div  class="col-8">
+						<div class="shadow-custom" id="main-box">
+						main box is here
+						</div >
+					</div>
+					<div  class="col-2">
+						<div  class="shadow-custom" id="metadata">
+						<h4>Metadata</h4>
+						<p>Lorem ipsum dolor sit amet, vis habeo inciderint id, eam cu elit fabulas menandri. Brute reque consetetur pro ei, 
+						ad vix quod eligendi maiestatis. Quo diceret voluptua ad. Amet vidisse percipitur ea vis. Mel decore persius an. An 
+						has lorem pertinax, adipisci aliquando pri at. Eu intellegat abhorreant cum.
+						</p>
+						</div >
+						<div  class="shadow-custom" id="notes">
+						<h4>Critical Notes</h4>
+						search bar
+						<p>Lorem ipsum dolor sit amet, vis habeo inciderint id, eam cu elit fabulas menandri. Brute reque consetetur pro ei, 
+						ad vix quod eligendi maiestatis. Quo diceret voluptua ad. Amet vidisse percipitur ea vis. Mel decore persius an. An 
+						has lorem pertinax, adipisci aliquando pri at. Eu intellegat abhorreant cum.
+						</p>
+						<p>Nam falli omittam ad, ad nec agam neglegentur. Te cum elit timeam volumus, no pri illum saepe veritus, doctus
+						repudiare ne has. Vel iusto voluptua ne. Malis utinam te nec.
+						Labores alienum nec et. Molestie probatus deserunt an has, id mei propriae appareat adipiscing, id rebum ludus
+						accusamus eos. Ne mea timeam praesent adversarium. Ei suas efficiendi vim. Mea dictas vocent percipit et, choro copiosae 
+						intellegam pro te, ne quodsi gloriatur sit.
+						</p>
+						<p>Ea volumus neglegentur definitionem nam. Illud mnesarchum necessitatibus mei te. Duo meis tincidunt an. Vivendum
+						euripidis disputationi vix et. No sed sale reque.
+						Prompta nostrud salutandi ex ius. Mea ne fuisset omnesque volutpat. Ut elitr nihil per, volumus quaestio est ei. Vim 
+						cu vidisse qualisque mediocritatem. Ei mea molestie prodesset.
+						</p>
+						</div>
+						<div  class="shadow-custom" id="annotation">
+						<h4>Annotation</h4>
+						panel here
+						<p>Lorem ipsum dolor sit amet, vis habeo inciderint id, eam cu elit fabulas menandri. Brute reque consetetur pro ei, 
+						ad vix quod eligendi maiestatis. Quo diceret voluptua ad. Amet vidisse percipitur ea vis. Mel decore persius an. An 
+						has lorem pertinax, adipisci aliquando pri at. Eu intellegat abhorreant cum.
+						</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
